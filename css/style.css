@@ -31,6 +31,9 @@ body {
   color: rgb(165, 165, 190);
   cursor: pointer;
   text-decoration: none !important;
+}
+.firstResponsiveNav ul li a {
+  text-decoration: none !important;
   color: inherit;
 }
 .firstResponsiveNav ul li:hover {
@@ -41,6 +44,7 @@ body {
   position: fixed;
   top: 0;
   width: 86%;
+  left: 92px;
   background-color: white;
 }
 .navStart {
@@ -397,6 +401,25 @@ footer {
   margin: 0 10px 10px 0;
   background-color: #393f43;
 }
+.three div:nth-child(3) ul li:nth-child(1):hover {
+  background-color: rgb(97, 97, 235);
+}
+.three div:nth-child(3) ul li:nth-child(2):hover {
+background-color: skyblue;
+}
+.three div:nth-child(3) ul li:nth-child(3):hover {
+background-color: rgb(252, 151, 151);
+}
+.three div:nth-child(3) ul li:nth-child(4):hover {
+background-color: rgb(75, 75, 185);
+}
+.three div:nth-child(3) ul li:nth-child(5):hover {
+background-color:#767c80 ;
+}
+
+.three div:nth-child(3) ul li:nth-child(6):hover {
+background-color: red;
+}
 /* media quireys */
 @media screen and (max-width: 834px) {
   .firstResponsiveNav {
@@ -484,4 +507,11 @@ footer {
     display: block;
     align-items: flex-start;
   }
+}
+a {
+  color: inherit;
+  text-decoration: none !important;
+}
+img {
+  cursor: pointer;
 }
